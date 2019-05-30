@@ -41,5 +41,4 @@ becomes the first one.
 __rrr__ : rra and rrb at the same time.
 </br>
 
-__The program should be able to sort 3 integers in a maximum of 3 commands, 5 integers in a maximum of 12 commands</br>
-, 100 integers in a maximum of 700 commands and 500 integers in a maximum of 5500 commands.</br>__
+__The program should be able to sort 3 integers in a maximum of 3 commands, 5 integers in a maximum of 12 commands, 100 integers in a maximum of 700 commands and 500 integers in a maximum of 5500 commands.</br>__
