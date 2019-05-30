@@ -4,7 +4,7 @@ __Push Swap was the first project implementing algorithms using C at Codam.
 The following is a description of the program:__
 
  </br>
-><em>Summary:
+<em>Summary:
 This project will make you sort data on a stack, with a limited set of instructions, using
 the lowest possible number of actions. To succeed you’ll have to manipulate various
 types of algorithms and choose the one (of many) most appropriate solution for an
@@ -27,7 +27,7 @@ ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./check
 __The operations we were allowed to use:__
 
 </br>
-__sa__ : swap a - swap the first 2 elements at the top of stack a.
+<strong>sa</strong> : swap a - swap the first 2 elements at the top of stack a.
 </br>
 __sb__ : swap b - swap the first 2 elements at the top of stack b.
 </br>
