@@ -9,33 +9,33 @@ the lowest possible number of actions. To succeed you’ll have to manipulate va
 types of algorithms and choose the one (of many) most appropriate solution for an
 optimized data sorting.
 
-__The operations we were allowed to use:
-sa : swap a - swap the first 2 elements at the top of stack a. </br>
+__The operations we were allowed to use:__ </br>
+__sa__ : swap a - swap the first 2 elements at the top of stack a. </br>
 </br>
-sb : swap b - swap the first 2 elements at the top of stack b. </br>
+__sb__ : swap b - swap the first 2 elements at the top of stack b. </br>
 </br>
-ss : sa and sb at the same time.</br>
+__ss__ : sa and sb at the same time.</br>
 </br>
-pa : push a - take the first element at the top of b and put it at the top of a. Do</br>
+__pa__ : push a - take the first element at the top of b and put it at the top of a. Do</br>
 nothing if b is empty.</br>
 </br>
-pb : push b - take the first element at the top of a and put it at the top of b. Do</br>
+__pb__ : push b - take the first element at the top of a and put it at the top of b. Do</br>
 nothing if a is empty.</br>
 </br>
-ra : rotate a - shift up all elements of stack a by 1. The first element becomes</br>
+__ra__ : rotate a - shift up all elements of stack a by 1. The first element becomes</br>
 the last one.</br>
 </br>
-rb : rotate b - shift up all elements of stack b by 1. The first element becomes</br>
+__rb__ : rotate b - shift up all elements of stack b by 1. The first element becomes</br>
 the last one.</br>
 </br>
-rr : ra and rb at the same time.</br>
+__rr__ : ra and rb at the same time.</br>
 </br>
-rra : reverse rotate a - shift down all elements of stack a by 1. The last element</br>
+__rra__ : reverse rotate a - shift down all elements of stack a by 1. The last element</br>
 becomes the first one.</br>
 </br>
-rrb : reverse rotate b - shift down all elements of stack b by 1. The last element</br>
+__rrb__ : reverse rotate b - shift down all elements of stack b by 1. The last element</br>
 becomes the first one.</br>
 </br>
-rrr : rra and rrb at the same time.</br>__
+__rrr__ : rra and rrb at the same time.</br>__
 </br>
 
