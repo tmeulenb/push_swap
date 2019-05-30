@@ -40,7 +40,7 @@ becomes the first one.
 </br>
 __rrr__ : rra and rrb at the same time.
 
-
+</br>
 
 __The program should be able to sort:__
 * 3 integers in a maximum of 3 commands.
@@ -51,10 +51,10 @@ __The program should be able to sort:__
 
 
 __My program had the following amount of commands on average:__
-* 2 commands for 3 integers.
-* 9 commands for 5 integers.
-* 640 commands for 100 integers.
-* 4950 commands for 500 integers.
+* 3 integers in 2 commands on average.
+* 5 integers in 9 commands on average.
+* 100 integers in 650 commands on average.
+* 500 integers in 4950 commands on average.
 </br>
 </br>
 
