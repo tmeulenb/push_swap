@@ -10,7 +10,19 @@ types of algorithms and choose the one (of many) most appropriate solution for a
 optimized data sorting.
 </br>
 
+## Installation:
 
+```
+git clone https://github.com/tmeulenb/push_swap; cd push_swap; make
+```
+
+## Usage:
+```
+ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./checker -vcat $ARG
+```
+
+## Rules
+```
 __The operations we were allowed to use:__ </br>
 __sa__ : swap a - swap the first 2 elements at the top of stack a.
 </br>
@@ -39,24 +51,29 @@ __rrb__ : reverse rotate b - shift down all elements of stack b by 1. The last e
 becomes the first one.
 </br>
 __rrr__ : rra and rrb at the same time.
-
+```
 </br>
 
+## Expected result
+```
 __The program should be able to sort:__
 * 3 integers in a maximum of 3 commands.
 * 5 integers in a maximum of 12 commands. 
 * 100 integers in a maximum of 700 commands. 
 * 500 integers in a maximum of 5500 commands.
+```
 
 
-
+## My result
+```
 __My program had the following amount of commands on average:__
 * 3 integers in 2 commands on average.
 * 5 integers in 9 commands on average.
 * 100 integers in 650 commands on average.
 * 500 integers in 4950 commands on average.
+```
 </br>
 </br>
 
-<em>I enjoyed working on this project and liked to challenge to modify an algoritm to work using the limited operations.</em>
+<em>I enjoyed working on this project and liked the challenge to modify an algoritm to work using the limited operations.</em>
 
