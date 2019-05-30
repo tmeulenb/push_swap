@@ -16,9 +16,8 @@ optimized data sorting.</em>
 ## Installation:
 
 ```
-git clone https://github.com/tmeulenb/push_swap; 
-cd push_swap; 
-make
+git clone https://github.com/tmeulenb/push_swap
+cd push_swap && make
 ```
 
 ## Usage:
