@@ -39,13 +39,16 @@ __rrb__ : reverse rotate b - shift down all elements of stack b by 1. The last e
 becomes the first one.
 </br>
 __rrr__ : rra and rrb at the same time.
-</br>
+
+
 
 __The program should be able to sort:__
 * 3 integers in a maximum of 3 commands.
 * 5 integers in a maximum of 12 commands. 
 * 100 integers in a maximum of 700 commands. 
 * 500 integers in a maximum of 5500 commands.
+
+
 
 __My program had the following amount of commands on average:__
 * 2 commands for 3 integers.
