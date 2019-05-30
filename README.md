@@ -9,11 +9,9 @@ the lowest possible number of actions. To succeed you’ll have to manipulate va
 types of algorithms and choose the one (of many) most appropriate solution for an
 optimized data sorting.
 
-The operations we were allowed to use:
->sa : swap a - swap the first 2 elements at the top of stack a. Do nothing if there </br>
-is only one or no elements).</br>
-sb : swap b - swap the first 2 elements at the top of stack b. Do nothing if there</br>
-is only one or no elements).</br>
+__The operations we were allowed to use:
+sa : swap a - swap the first 2 elements at the top of stack a. </br>
+sb : swap b - swap the first 2 elements at the top of stack b. </br>
 ss : sa and sb at the same time.</br>
 pa : push a - take the first element at the top of b and put it at the top of a. Do</br>
 nothing if b is empty.</br>
@@ -28,5 +26,5 @@ rra : reverse rotate a - shift down all elements of stack a by 1. The last eleme
 becomes the first one.</br>
 rrb : reverse rotate b - shift down all elements of stack b by 1. The last element</br>
 becomes the first one.</br>
-rrr : rra and rrb at the same time.</br>
+rrr : rra and rrb at the same time.</br>__
 
