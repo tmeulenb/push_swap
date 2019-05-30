@@ -1,6 +1,7 @@
 # push_swap - A sorting algorithm using two stacks and limited operations.
 
 __Push Swap was the first project implementing algorithms using C at Codam. 
+The project consist of two programs, checker and push_swap. push_swap sort a array of integers and writes the commands to the stdout. Checker reads these commands and executes them. If the array is sorted the output is "OK", if not the output will be "KO".
 The following is a description of the program:__
 
  </br>
@@ -35,6 +36,7 @@ Flags that can be used for [checker]
 Flags that can be used for [push_swap]
 -checker | Makes push_swap work as checker.
 --help | Shows all the information about flags and usage.
+```
 
 ## Rules
 ```
