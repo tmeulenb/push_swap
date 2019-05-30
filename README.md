@@ -1,4 +1,4 @@
-# push_swap
+# push_swap - A sorting algorithm using two stacks and limited operations.
 
 Push Swap was the first project implementing algorithms using C at Codam. 
 The following is a description of the program:
@@ -46,3 +46,14 @@ __The program should be able to sort:__
 * 5 integers in a maximum of 12 commands. 
 * 100 integers in a maximum of 700 commands. 
 * 500 integers in a maximum of 5500 commands.
+
+__My program had the following amount of commands on average:__
+* 2 commands for 3 integers.
+* 9 commands for 5 integers.
+* 640 commands for 100 integers.
+* 4950 commands for 500 integers.
+</br>
+</br>
+
+**I enjoyed working on this project and liked to challenge to modify an algoritm to work using the limited operations.**
+
