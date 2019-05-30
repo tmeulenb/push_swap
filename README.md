@@ -20,8 +20,21 @@ git clone https://github.com/tmeulenb/push_swap; cd push_swap; make
 
 ## Usage:
 ```
-ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./checker -vcat $ARG
+ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"; 
+./push_swap $ARG | ./checker $ARG
 ```
+
+## Flags
+```
+Flags that can be used for [checker]
+-v | Displays the stack after every command in the program checker.
+-o | Visualizes the sorting algorithm. Would not advice to use this on arrays larger than 100.
+-x | Displays the total amount of commands.
+-c | Displays the total amount of commands per command.
+
+Flags that can be used for [push_swap]
+-checker | Makes push_swap work as checker.
+--help | Shows all the information about flags and usage.
 
 ## Rules
 ```
