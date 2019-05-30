@@ -57,7 +57,6 @@ becomes the first one.
 rrr : rra and rrb at the same time.
 
 ```
-</br>
 
 ## Expected result
 ```
