@@ -10,6 +10,7 @@ the lowest possible number of actions. To succeed you’ll have to manipulate va
 types of algorithms and choose the one (of many) most appropriate solution for an
 optimized data sorting.</em>
 </br>
+</br>
 
 ## Installation:
 
@@ -24,42 +25,42 @@ ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./check
 
 ## Rules
 ```
-__The operations we were allowed to use:__
+The operations we were allowed to use:
 
 </br>
-<strong>sa</strong> : swap a - swap the first 2 elements at the top of stack a.
+sa : swap a - swap the first 2 elements at the top of stack a.
 </br>
-__sb__ : swap b - swap the first 2 elements at the top of stack b.
+sb : swap b - swap the first 2 elements at the top of stack b.
 </br>
-__ss__ : sa and sb at the same time.
+ss : sa and sb at the same time.
 </br>
-__pa__ : push a - take the first element at the top of b and put it at the top of a. Do
+pa : push a - take the first element at the top of b and put it at the top of a. Do
 nothing if b is empty.
 </br>
-__pb__ : push b - take the first element at the top of a and put it at the top of b. Do
+pb : push b - take the first element at the top of a and put it at the top of b. Do
 nothing if a is empty.
 </br>
-__ra__ : rotate a - shift up all elements of stack a by 1. The first element becomes
+ra : rotate a - shift up all elements of stack a by 1. The first element becomes
 the last one.
 </br>
-__rb__ : rotate b - shift up all elements of stack b by 1. The first element becomes
+rb : rotate b - shift up all elements of stack b by 1. The first element becomes
 the last one.
 </br>
-__rr__ : ra and rb at the same time.
+rr : ra and rb at the same time.
 </br>
-__rra__ : reverse rotate a - shift down all elements of stack a by 1. The last element
+rra : reverse rotate a - shift down all elements of stack a by 1. The last element
 becomes the first one.
 </br>
-__rrb__ : reverse rotate b - shift down all elements of stack b by 1. The last element
+rrb : reverse rotate b - shift down all elements of stack b by 1. The last element
 becomes the first one.
 </br>
-__rrr__ : rra and rrb at the same time.
+rrr : rra and rrb at the same time.
 ```
 </br>
 
 ## Expected result
 ```
-**The program should be able to sort:**
+The program should be able to sort:
 * 3 integers in a maximum of 3 commands.
 * 5 integers in a maximum of 12 commands. 
 * 100 integers in a maximum of 700 commands. 
@@ -69,7 +70,7 @@ __rrr__ : rra and rrb at the same time.
 
 ## My result
 ```
-__My program had the following amount of commands on average:__
+My program had the following amount of commands on average:
 * 3 integers in 2 commands on average.
 * 5 integers in 9 commands on average.
 * 100 integers in 650 commands on average.
