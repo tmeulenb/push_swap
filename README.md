@@ -62,20 +62,20 @@ rrr : rra and rrb at the same time.
 ## Expected result
 ```
 The program should be able to sort:
-* 3 integers in a maximum of 3 commands.
-* 5 integers in a maximum of 12 commands. 
-* 100 integers in a maximum of 700 commands. 
-* 500 integers in a maximum of 5500 commands.
+- 3 integers in a maximum of 3 commands.
+- 5 integers in a maximum of 12 commands. 
+- 100 integers in a maximum of 700 commands. 
+- 500 integers in a maximum of 5500 commands.
 ```
 
 
 ## My result
 ```
 My program had the following amount of commands on average:
-* 3 integers in 2 commands on average.
-* 5 integers in 9 commands on average.
-* 100 integers in 650 commands on average.
-* 500 integers in 4950 commands on average.
+- 3 integers in 2 commands on average.
+- 5 integers in 9 commands on average.
+- 100 integers in 650 commands on average.
+- 500 integers in 4950 commands on average.
 ```
 </br>
 </br>
