@@ -1,13 +1,14 @@
 # push_swap - A sorting algorithm using two stacks and limited operations.
 
-Push Swap was the first project implementing algorithms using C at Codam. 
-The following is a description of the program:
+__Push Swap was the first project implementing algorithms using C at Codam. 
+The following is a description of the program:__
+
  </br>
->Summary:
+><em>Summary:
 This project will make you sort data on a stack, with a limited set of instructions, using
 the lowest possible number of actions. To succeed you’ll have to manipulate various
 types of algorithms and choose the one (of many) most appropriate solution for an
-optimized data sorting.
+optimized data sorting.</em>
 </br>
 
 ## Installation:
@@ -23,7 +24,9 @@ ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./check
 
 ## Rules
 ```
-__The operations we were allowed to use:__ </br>
+__The operations we were allowed to use:__
+
+</br>
 __sa__ : swap a - swap the first 2 elements at the top of stack a.
 </br>
 __sb__ : swap b - swap the first 2 elements at the top of stack b.
@@ -56,7 +59,7 @@ __rrr__ : rra and rrb at the same time.
 
 ## Expected result
 ```
-__The program should be able to sort:__
+**The program should be able to sort:**
 * 3 integers in a maximum of 3 commands.
 * 5 integers in a maximum of 12 commands. 
 * 100 integers in a maximum of 700 commands. 
