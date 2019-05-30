@@ -58,5 +58,5 @@ __My program had the following amount of commands on average:__
 </br>
 </br>
 
-**I enjoyed working on this project and liked to challenge to modify an algoritm to work using the limited operations.**
+<em>I enjoyed working on this project and liked to challenge to modify an algoritm to work using the limited operations.</em>
 
